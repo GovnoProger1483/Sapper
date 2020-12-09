@@ -140,7 +140,6 @@ const clickTile = (tile) => {
 
 const checkTile = (tile, coordinate) => {
 	
-	console.log('хуй');
 	let coords = coordinate.split(',');
 	let x = parseInt(coords[0]);
 	let y = parseInt(coords[1]);
